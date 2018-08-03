@@ -3,7 +3,7 @@
 
 ## Tecnologias do Projeto
 
-- Axure
+- Axure [Link](https://www.axure.com/)
 - HTML5 
 - CSS3
 - Bootstrap 4.1 [Link](https://getbootstrap.com/)
@@ -20,8 +20,6 @@
 "Os professores de marketing recebem muitas dúvidas, em diversas mídias e tem dificuldade para atender plenamente seus alunos."
 
 
-
-# PROJETO PARA UNINTER
 
 Link do Projeto:  https://adeiltonsousa.github.io/forum-uninter
 

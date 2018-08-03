@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 body {
     margin: 0;
@@ -13,7 +13,7 @@ body {
     border-bottom: solid 5px #4faddb;
     height: 120px;
     box-sizing: content-box;
-  }
+}
   
 .logo {
     display: inline-block;
@@ -21,45 +21,51 @@ body {
     padding: 15px;
     padding-left: 25px;
     align-self: center;
-  }
+}
   
 .titulo {
     color: #f0fff0;
     align-self: center;
-  }
+}
   
 .autenticacao {
     float: right;
     height: 100%;
     padding: 15px;
-  }
-  
-.menu {
-    float: center;
-    padding: 25px;
-    background-color: #fff;
-  }
-  
-.menu a {
+}
+
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
     text-decoration: none;
-    color: #000;
-  }
-  
-.menu a:hover {
-    background-color: #c4c0c0;
-  }
-  
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #024668;
+    color: white;
+}
+
 .centro {
     padding: 20px 20px;
     align-content: center;
-  }
+}
   
 .centro td tr th {
     text-decoration-color: #424040;
     font-size: 11pt;
     background-color: #E6E6FA;
     border: 5pt;
-  }
+}
 
 .icones {
     float:left;
@@ -67,7 +73,7 @@ body {
     margin-left: 40px;
     margin-right: 7px;
     margin-bottom: 10px;
-   }
+}
    
 .table {
     margin-top: 50px;
