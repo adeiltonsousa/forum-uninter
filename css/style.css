@@ -1,66 +1,80 @@
 * {
     box-sizing: border-box;
   }
-  
-  body {
+
+body {
     margin: 0;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Sunflower', sans-serif;
     background-color: #F5F5F5;
-  }
+}
   
-  .cabecalho {
+.cabecalho {
     background-color: #024668;
     border-bottom: solid 5px #4faddb;
     height: 120px;
     box-sizing: content-box;
   }
   
-  .logo {
+.logo {
     display: inline-block;
     height: 80px;
     padding: 15px;
+    padding-left: 25px;
     align-self: center;
   }
   
-  .titulo {
+.titulo {
     color: #f0fff0;
     align-self: center;
   }
   
-  .autenticacao {
+.autenticacao {
     float: right;
     height: 100%;
     padding: 15px;
   }
   
-  .menu {
+.menu {
     float: center;
     padding: 25px;
     background-color: #fff;
   }
   
-  .menu a {
+.menu a {
     text-decoration: none;
     color: #000;
   }
   
-  .menu a:hover {
-    background-color: rgb(196, 192, 192);
+.menu a:hover {
+    background-color: #c4c0c0;
   }
   
-  .centro {
-    margin-top: 15px;
+.centro {
     padding: 20px 20px;
     align-content: center;
   }
   
-  .centro td {
-    text-decoration-color: rgb(66, 64, 64);
+.centro td tr th {
+    text-decoration-color: #424040;
     font-size: 11pt;
+    background-color: #E6E6FA;
+    border: 5pt;
   }
-  
-  @media (max-width: 600px) {
+
+.icones {
+    float:left;
+    height: 25px;
+    margin-left: 40px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+   }
+   
+.table {
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
     .autenticacao {
       display: none;
     }
-  }
+}
