@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="card bg-default menu">
                             <h5 class="card-header">
                                 Disciplinas
@@ -44,7 +44,8 @@
                                 <a class="card-text" href="#">
                                         Disciplina 004
                                 </a></br>
-                                <a class="card-text" href="#">
+                                <a class="card-text" 
+                                href="#">
                                         Disciplina 005
                                 </a></br>
                                 <a class="card-text" href="#">
@@ -62,17 +63,26 @@
                             </div>                        
                         </div>
                     </div>
-                    <div class="col-md-9 centro">
+                    <div class="col-md-10 centro">
                         <div class="row">
-                            <div class="col-md-12 centro">
-                                <h3>
-                                    Lista de Perguntas
-                                </h3>
+                            <div class="col-md-12">
+                            <form>
+                                <div class="form-group">
+                                    <h3><label for="form_duvidas">Insira sua Pergunta</label></h3><br>
+                                    Título: <input type="text" class="form-control" id="título_pergunta">
+                                    Dúvida: <textarea class="form-control" id="texto_pergunta" rows="3"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-secondary">enviar</button>
+                            </form>
+                            <hr/>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
-                            </div>
+                                <div class="col-md-12 centro">
+                                    <h4>
+                                        Lista de Perguntas
+                                    </h4>
+                                </div>
                         </div>
                     </div>
                 </div>
