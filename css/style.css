@@ -50,7 +50,11 @@ body {
     margin-top: 15px;
     padding: 20px 20px;
     align-content: center;
+}
 
+.centro td{
+    color: rgb(66, 64, 64);
+    font-size: 11pt;
 }
 
 

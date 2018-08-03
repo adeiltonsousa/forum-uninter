@@ -6,87 +6,181 @@
     <title>Simples Fórum para Interação entre Alunos e Professores</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-        <div class="container-fluid">
-                <div class="row cabecalho">
-                    <div class="col-md-3 logo">
-                        <img alt="Logomarca UNINTER" src="img/logo-uninter.png" />
+    <div class="container-fluid">
+        <div class="row cabecalho">
+            <div class="col-md-3 logo">
+                <img alt="Logomarca UNINTER" src="img/logo-uninter.png" />
+            </div>
+            <div class="col-md-7 titulo">
+                <h3>
+                    Sistema de Fórum Aluno/Professor
+                </h3>
+            </div>
+            <div class="col-md-2">
+                <img class="autenticacao" alt="perfil do usuário" src="img/profile.jpg" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card bg-default menu">
+                    <h5 class="card-header">
+                        Disciplinas
+                    </h5>
+                    <div class="card-body">
+                        <p>
+                            <a class="card-text" href="#">
+                                Disciplina 001
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 002
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 003
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 004
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 005
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 006
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 007
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 008
+                            </a>
+                            </br>
+                            <a class="card-text" href="#">
+                                Disciplina 009
+                            </a>
                     </div>
-                    <div class="col-md-7 titulo">
-                        <h3>
-                            Sistema de Fórum Aluno/Professor
-                        </h3>
-                    </div>
-                    <div class="col-md-2">
-                        <img class="autenticacao" alt="perfil do usuário" src="img/profile.jpg" />
+                </div>
+            </div>
+            <div class="col-md-10 centro">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                <h3>
+                                    <label for="form_duvidas">Insira sua Pergunta:
+                                        <b>Disciplina 001</b>
+                                    </label>
+                                </h3>
+                                <br>
+                                Nome do Aluno:
+                                <input type="text" class="form-control" id="título_pergunta">
+                                Dúvida:
+                                <textarea class="form-control" id="texto_pergunta" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-secondary">ENVIAR</button>
+                        </form>
+                        <hr/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2">
-                        <div class="card bg-default menu">
-                            <h5 class="card-header">
-                                Disciplinas
-                            </h5>
-                                <div class="card-body">
-                                <p><a class="card-text" href="#">
-                                        Disciplina 001
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 002
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 003
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 004
-                                </a></br>
-                                <a class="card-text" 
-                                href="#">
-                                        Disciplina 005
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 006
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 007
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 008
-                                </a></br>
-                                <a class="card-text" href="#">
-                                        Disciplina 009
-                                </a>
-                            </div>                        
-                        </div>
+                    <div class="col-md-12 centro">
+                        <h4>
+                            Fórum de Dúvidas
+                        </h4>
                     </div>
-                    <div class="col-md-10 centro">
-                        <div class="row">
-                            <div class="col-md-12">
-                            <form>
-                                <div class="form-group">
-                                    <h3><label for="form_duvidas">Insira sua Pergunta</label></h3><br>
-                                    Título: <input type="text" class="form-control" id="título_pergunta">
-                                    Dúvida: <textarea class="form-control" id="texto_pergunta" rows="3"></textarea>
-                                </div>
-                                <button type="button" class="btn btn-secondary">enviar</button>
-                            </form>
-                            <hr/>
-                            </div>
-                        </div>
-                        <div class="row">
-                                <div class="col-md-12 centro">
-                                    <h4>
-                                        Lista de Perguntas
-                                    </h4>
-                                </div>
-                        </div>
-                    </div>
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Aluno:</th>
+                                <td>Adeilton Sousa</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pergunta:</th>
+                                <td>
+                                    Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren
+                                    Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Loren Pergunta Loren Pergunta
+                                    Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta
+                                    Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta.
+                                </td>
+                            </tr>
+                        </tbody>                    
+                    </table>
+
+                    <hr/>
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Aluno:</th>
+                                <td>Adeilton Sousa</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pergunta:</th>
+                                <td>
+                                        Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren
+                                        Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Loren Pergunta Loren Pergunta
+                                        Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta
+                                        Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta.
+                                </td>
+                            </tr>
+                        </tbody>                    
+                    </table>
+                    <hr/>
+                    <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Aluno:</th>
+                                    <td>Adeilton Sousa</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Pergunta:</th>
+                                    <td>
+                                        Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren
+                                        Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Loren Pergunta Loren Pergunta
+                                        Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta
+                                        Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta.
+                                    </td>
+                                </tr>
+                            </tbody>                    
+                        </table>
+    
+                        <hr/>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Aluno:</th>
+                                    <td>Adeilton Sousa</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Pergunta:</th>
+                                    <td>
+                                            Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren
+                                            Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Loren Pergunta Loren Pergunta
+                                            Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta
+                                            Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta Loren Pergunta.
+                                    </td>
+                                </tr>
+                            </tbody>                    
+                        </table>
+                        <hr/>                    
+
+
+
+
                 </div>
+            </div>
         </div>
+    </div>
 
 </body>
 
