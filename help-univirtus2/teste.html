@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form class="modal multi-step" id="demo-modal-2">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title step-1" data-step="1"></h4>
+                <h4 class="modal-title step-2" data-step="2">Step 2</h4>
+                <h4 class="modal-title step-3" data-step="3">Final Step</h4>
+                <div>
+                    PROGRESSO
+                </div>
+            </div>
+            <div class="modal-body step-1" data-step="1">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-md-5">         
+                            <img class="" src="img/img01.png" alt="">         
+                        </div>    
+
+                        <div class="col-md-6">
+                            
+                                <p class="titulo">Olá</p> 
+                                <p>
+                                    Seja bem-vindo ao Centro Universitário Internacional Uninter!
+                                </p>
+                                <p>
+                                    Apresentamos a você o nosso Ambiente Virtual de Aprendizagem (AVA), o Univirtus. (Logo univirtus)
+                                </p>
+                                <p>
+                                    Durante sua caminhada conosco este será o seu espaço para estudo, realização de atividades, avaliações, interações e muito mais.
+                                </p>
+                                <p>
+                                    Preparado? Vamos conhecer os primeiros passos para que você inicie agora mesmo! 
+                                </p>
+                                <br>
+                                <button type="button" class="btn btn-personalizado step step-1" data-step="1" onclick="sendEvent('#demo-modal-2', 2)">INICIAR TUOR</button>                            
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body step-2" data-step="3">
+                    <div class="container-fluid">
+                            <div class="row">
+
+                                <div class="col-md-5">         
+                                    <img  class="gif" src="gifs/videosTour_01.gif" alt="">         
+                                </div>  
+
+                                <div class="col-md-5">    
+
+                                    <p class="titulo">
+                                        Acessando o Univirtus
+                                    </p> 
+                                    <p>
+                                    Acesse univirtus.uninter.com e digite seu RU (Registro Uninter) e Senha.
+                                    </p>
+                                    <br><br><br>
+                                    <button type="button" class="btn btn-personalizado step step-2" data-step="2" onclick="sendEvent('#demo-modal-2', 3)">PRÓXIMO</button>                            
+                        
+                                </div>
+
+                                    <img class="ilustracao img-responsive" src="img/img02.png" alt="">
+                           
+                            </div>
+                    </div>
+            </div>
+
+            <div class="modal-body step-3" data-step="3">
+                This is the final step.
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+                <button type="button" class="btn btn-primary step step-1" data-step="1" onclick="sendEvent('#demo-modal-2', 2)">INICIAR TUOR</button>
+                <button type="button" class="btn btn-primary step step-2" data-step="2" onclick="sendEvent('#demo-modal-2', 3)">Continue</button> 
+            </div> -->
+        </div>
+    </div>
+</form>
+
+<div class="container">
+
+    <div class="row">
+        <h1>
+            Abrir Modal
+        </h1>
+        <button class="btn btn-default" data-toggle="modal" data-target="#demo-modal-2">Show</button>
+    </div>
+
+</div>
+<script src="multi-step-modal.js"></script>
+<script>
+sendEvent = function(sel, step) {
+    $(sel).trigger('next.m.' + step);
+}
+</script>
+</body>
+</html>

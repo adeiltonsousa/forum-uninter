@@ -1,0 +1,36 @@
+body{
+    font-size: 1.6rem;
+}
+
+.titulo {
+    font-size: 2.3rem;
+    color: #3399cc;
+    font: bold;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn-personalizado {
+    background-color: #3399cc;
+    border: none;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-personalizado:hover {
+    background-color: #0099cc;
+    color: #fff;
+}
+
+.gif {
+    text-align: center;
+    width: 100%;
+}
+
+.ilustracao {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
